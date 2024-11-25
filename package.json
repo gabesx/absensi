@@ -1,0 +1,23 @@
+{
+  "name": "titip-absen",
+  "version": "0.1.0",
+  "description": "Clock-in and clock-out to Talenta",
+  "main": "index.js",
+  "scripts": {
+    "clock-in": "playwright test clock-in",
+    "clock-out": "playwright test clock-out"
+  },
+  "keywords": [
+    "talenta",
+    "live attendance",
+    "clock-in",
+    "clock-out"
+  ],
+  "author": "Krisantus Wanandi",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0",
+    "dotenv": "^16.4.5"
+  }
+}
